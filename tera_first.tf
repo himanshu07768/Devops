@@ -10,7 +10,7 @@
 #    }
 #  }
 
-##partial commit by Himanshu
+
 #  T I P    !
 #I want to add one more point here.. IF you are using multiple tf files in a folder try avoiding it as once you run a tf file the tfstate is created.. So adding providers to another file in same folder will error out as duplicate provider 
 #Create the AzureRM Provider in Terraform
