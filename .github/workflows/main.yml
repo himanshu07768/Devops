@@ -11,6 +11,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: print name
+      run: echo "HEllo i'm from devops side"
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Use Node.js
